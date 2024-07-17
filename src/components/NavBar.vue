@@ -11,7 +11,7 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <nav class="sticky top-0 bg-gray-800 w-[99%] mx-auto rounded-md shadow-xl sm:h-28 ">
+  <nav class="sticky top-0 bg-gray-800 w-[99%] mx-auto rounded-md sm:h-28 ">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16 sm:h-24">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
