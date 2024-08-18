@@ -16,7 +16,7 @@
       <p class="xl:ml-[60px] xl:mr-[60px] xl:text-[22px] md:text-[17px] min-[320px]:text-[11px] lg:ml-[50px] lg:mr-[50px] md:ml-[30px] md:mr-[30px] min-[375px]:ml-[30px] min-[375px]:mr-[30px]">Nos maisons d'hôtes hanok sont situées dans des quartiers historiques et près de sites culturels, permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p>
       <div class="card-actions flex mt-8">
         <button class="btn btn-primary bg-Gold xl:w-[250px] xl:h-[50px] mx-auto justify-end text-black h-10 rounded-md md:mt-[60px] min-[375px]:mt-[20px] xl:mt-[80px] lg:mt-[110px] md:w-[150px]
-        min-[375px]:w-[100px] min-[375px]:h-8">Découvrir</button>
+        min-[375px]:w-[100px] min-[375px]:h-8 shadow-xl hover:bg-Primary-Green focus:outline-none focus:ring-2 focus:ring-Primary-Green focus:ring-opacity-50">Découvrir</button>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
       <p class="xl:ml-[70px] xl:mr-[70px] xl:text-[22px] md:text-[17px] min-[320px]:text-[11px] lg:ml-[50px] lg:mr-[50px] md:ml-[30px] md:mr-[30px] min-[375px]:ml-[30px] min-[375px]:mr-[30px]">une philosophie commune : celle d'offrir des séjours uniques dans un cadre idyllique tout en faisant découvrir un terroir, un savoir-faire, une expérience mémorable…</p>
       <div class="card-actions flex mt-8">
         <button class="btn btn-primary bg-Primary-Blue xl:w-[250px] xl:h-[50px] mx-auto justify-end text-white h-10 rounded-md md:mt-[60px] min-[375px]:mt-[20px] xl:mt-[80px] lg:mt-[110px] md:w-[150px]
-        min-[375px]:w-[100px] min-[375px]:h-8">Découvrir</button>
+        min-[375px]:w-[100px] min-[375px]:h-8 shadow-xl hover:bg-Primary-Red focus:outline-none focus:ring-2 focus:ring-Primary-Green focus:ring-opacity-50">Découvrir</button>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
       <p class="xl:ml-[70px] xl:mr-[70px] xl:text-[22px] md:text-[17px] min-[320px]:text-[11px] lg:ml-[50px] lg:mr-[50px] md:ml-[30px] md:mr-[30px] min-[375px]:ml-[30px] min-[375px]:mr-[30px]">Lorem ipsum dolor sit amet consectetur. Vitae amet eget tempor bibendum lectus. Facilisi egestas nisl egestas vitae scelerisque senectus arcu pellentesque.</p>
       <div class="card-actions flex mt-8">
         <button class="btn btn-primary bg-Primary-Red xl:w-[250px] xl:h-[50px] mx-auto justify-end text-white h-10 rounded-md md:mt-[60px] min-[375px]:mt-[20px] xl:mt-[80px] lg:mt-[110px] md:w-[150px]
-        min-[375px]:w-[100px] min-[375px]:h-8">Découvrir</button>
+        min-[375px]:w-[100px] min-[375px]:h-8 shadow-xl hover:bg-Primary-Green focus:outline-none focus:ring-2 focus:ring-Primary-Green focus:ring-opacity-90">Découvrir</button>
       </div>
     </div>
   </div>

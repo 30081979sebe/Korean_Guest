@@ -13,7 +13,10 @@ export default {
         'Gold': '#E7D183',
         'Primary-Blue':'#2759A3',
         'Primary-Red' : '#D31919',
-        'Primary-Green':'#88D66C'
+        'Primary-Green':'#88D66C',
+        'Primary-Purple':'#870042',
+        'Primary-Black':'#000000',
+        'Primay-White': '#F7F7F7'
       },
     },
   

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative xl:w-[99%] lg:w-[95%] min-[375px]:w-[99%] mx-auto mt-3 mb-8 shadow-md border-solid rounded-md z-0">
+    <div class="relative xl:w-[99%] lg:w-[95%] min-[375px]:w-[99%] mx-auto  mb-8 mt-1 shadow-md border-solid rounded-lg z-0">
       <div class="flex overflow-hidden">
         <div
           v-for="(image, index) in images"
