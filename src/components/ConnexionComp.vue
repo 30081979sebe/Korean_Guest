@@ -4,7 +4,8 @@
 </script>
 
 <template>
-  <div class="bg-white p-8 rounded-lg shadow-md w-96">
+  <div class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md w-96">
     <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Connexion</h1>
     
     <form class="space-y-4">
@@ -19,7 +20,7 @@
       </div>
       
       <div>
-        <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-Primary-Blue hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
           Se connecter
         </button>
       </div>
@@ -54,6 +55,7 @@
       </div>
     </div>
   </div>
+  </div> 
 </template>
 
 <style scoped>
