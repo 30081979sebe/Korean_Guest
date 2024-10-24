@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div class="bg-gray-100 h-screen flex items-center justify-center">
+  <div class="bg-Primary-White h-screen flex items-center justify-center">
     <div class="bg-white p-8 rounded-lg shadow-md w-96">
     <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Connexion</h1>
     
