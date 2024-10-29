@@ -1,13 +1,13 @@
 <script>
-import ContactForm from '@/components/ContactForm.vue';
 import FooterItems from '@/components/FooterItems.vue';
 import NavBar from '@/components/NavBar.vue';
+import CalendarButton from '@/components/CalendarButton.vue';
 
 export default {
   components: {
     NavBar,
     FooterItems,
-    ContactForm
+    CalendarButton
   }
 };
 </script>
@@ -17,7 +17,7 @@ export default {
 
 <template>
   <NavBar />
-  <ContactForm />
+  <CalendarButton />
   <FooterItems />
 </template>
 

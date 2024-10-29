@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^2.0.0",
+    "@vuepic/vue-datepicker": "^9.0.3",
     "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue-router": "^4.3.3",
+    "vue3-datepicker": "^0.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
