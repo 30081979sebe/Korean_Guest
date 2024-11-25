@@ -11,16 +11,16 @@
 
         <!-- Menu Principal Centré -->
         <ul class="hidden md:flex space-x-12 mx-auto">
-          <li><router-link to="/" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Accueil</router-link></li>
-          <li><router-link to="/rooms" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Hanoks</router-link></li>
-          <li><router-link to="/gallery" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Galerie</router-link></li>
-          <li><router-link to="/about" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">À Propos</router-link></li>
-          <li><router-link to="/contact" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Contact</router-link></li>
+          <li><router-link to="/" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-lg font-medium transition duration-300">Accueil</router-link></li>
+          <li><router-link to="/rooms" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-lg font-medium transition duration-300">Hanoks</router-link></li>
+          <li><router-link to="/gallery" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-lg font-medium transition duration-300">Galerie</router-link></li>
+          <li><router-link to="/about" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-lg font-medium transition duration-300">À Propos</router-link></li>
+          <li><router-link to="/contact" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-lg font-medium transition duration-300">Contact</router-link></li>
         </ul>
 
         <!-- Section Icône Utilisateur -->
         <div class="flex items-center mr-4 ml-6">
-          <router-link to="/login" class="hidden md:block">
+          <router-link to="/connexion" class="hidden md:block">
             <img src="/src/assets/images/white-user.png" alt="Icône Utilisateur" class="h-10 w-10">
           </router-link>
           <!-- Hamburger Menu pour Mobile -->
