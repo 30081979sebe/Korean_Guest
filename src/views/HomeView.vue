@@ -17,8 +17,8 @@ export default {
   <NavBar/>
   <div class="container mx-auto">
     <CarrouselHome />
+    <CardCenter/>
   </div>
-  <CardCenter/>
   <FooterItems/>
 </template>
 

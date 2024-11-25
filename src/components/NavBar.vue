@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-korea-blue bg-opacity-95 backdrop-filter backdrop-blur-md sticky top-0 w-full z-50">
+  <header class="bg-korea-blue bg-opacity-50 backdrop-filter backdrop-blur-md sticky top-0 w-full z-50">
     <nav class="container mx-auto px-4 nav-height flex items-center">
       <div class="flex justify-between items-center w-full">
         <!-- Section Logo -->
@@ -11,11 +11,11 @@
 
         <!-- Menu Principal Centré -->
         <ul class="hidden md:flex space-x-12 mx-auto">
-          <li><router-link to="/" class="text-korea-gold">Accueil</router-link></li>
-          <li><router-link to="/rooms" class="text-white hover:text-korea-gold transition">Hanoks</router-link></li>
-          <li><router-link to="/gallery" class="text-white hover:text-korea-gold transition">Galerie</router-link></li>
-          <li><router-link to="/about" class="text-white hover:text-korea-gold transition">À Propos</router-link></li>
-          <li><router-link to="/contact" class="text-white hover:text-korea-gold transition">Contact</router-link></li>
+          <li><router-link to="/" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Accueil</router-link></li>
+          <li><router-link to="/rooms" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Hanoks</router-link></li>
+          <li><router-link to="/gallery" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Galerie</router-link></li>
+          <li><router-link to="/about" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">À Propos</router-link></li>
+          <li><router-link to="/contact" class="korea-white hover:bg-white hover:text-blue-500 px-1 py-2 rounded-md text-sm font-medium transition duration-300">Contact</router-link></li>
         </ul>
 
         <!-- Section Icône Utilisateur -->
@@ -41,7 +41,7 @@
     <!-- Menu Mobile -->
     <div class="md:hidden" :class="{ 'hidden': !isMobileMenuOpen }" id="mobile-menu">
       <ul class="space-y-2 px-4">
-        <li><router-link to="/" class="block text-korea-gold">Accueil</router-link></li>
+        <li><router-link to="/" class="block text-korea-white">Accueil</router-link></li>
         <li><router-link to="/rooms" class="block text-white hover:text-korea-gold transition">Hanoks</router-link></li>
         <li><router-link to="/gallery" class="block text-white hover:text-korea-gold transition">Galerie</router-link></li>
         <li><router-link to="/about" class="block text-white hover:text-korea-gold transition">À Propos</router-link></li>
@@ -69,9 +69,9 @@ export default {
 
 <style scoped>
 body {
-  font-family: 'Noto Serif KR', serif;
-  background: linear-gradient(135deg, var(--korea-blue), var(--korea-blue-1));
-  color: white;
+  font-family: 'laila', serif;
+  background: var(--korea-blue);
+  color: korea-white;
 }
 
 .nav-height {

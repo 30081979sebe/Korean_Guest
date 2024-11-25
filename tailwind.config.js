@@ -13,7 +13,7 @@ export default {
         'Primary-Green':'#88D66C',
         'Primary-Purple':'#870042',
         'Primary-Black':'#000000',
-        'Primay-White': '#F7F7F7'
+        'Primay-White': '#FEFEE2'
       },
     },
   
