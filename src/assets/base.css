@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 body {
-    background: linear-gradient(135deg, var(--korea-blue), var(--korea-red));
-    color: white;
+    background:var(--korea-blue);
+    color: var(--korea-white);
   }
 
   :root {
     --korea-red: #C91A3C;
-    --korea-blue: #0047A0;
+    --korea-blue: #133E87;
     --korea-black: #000000;
     --korea-gold: #D4AF37;
     --korea-blue-1:#074173;
-    --korea-white:#FCF8F3;
+    --korea-white:#FEFEE2;
   }

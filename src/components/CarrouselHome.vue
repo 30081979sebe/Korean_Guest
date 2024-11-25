@@ -1,5 +1,5 @@
 <template>
-    <div class="relative xl:w-[99%] lg:w-[95%] min-[375px]:w-[99%] mx-auto  mb-8 mt-1 shadow-md border-solid rounded-lg z-0">
+    <div class="relative xl:w-full lg:w-full min-[375px]:w-full mx-auto  mb-8 mt-1 shadow-md border-solid rounded-lg z-0">
       <div class="flex overflow-hidden">
         <div
           v-for="(image, index) in images"
@@ -7,7 +7,7 @@
           class="w-full flex-shrink-0  transform transition-transform duration-500 xl:h-[400px] lg:h-[300px] md:h-[250px]"
           :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
         >
-          <img :src="image" class="w-full xl:h-[400px] lg:h-[300px] md:h-[250px] object-cover rounded-md">
+          <img :src="image" class="w-full xl:h-[800px] lg:h-[600px] md:h-[500px] object-cover">
         </div>
       </div>
       <button
@@ -22,9 +22,6 @@
       >
         &#10095;
       </button>
-    </div>
-    <div class=" mt-4 mb-0">
-      <hr class="bg-Gold h-1 xl:w-[99%] lg:w-[99%] md:w-[99%] sm:w-[99%] mx-auto">
     </div>
   </template>
   
