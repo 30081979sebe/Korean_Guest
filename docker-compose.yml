@@ -1,0 +1,42 @@
+#version: '3.8'
+services:
+
+  # BACKEND
+  symfony-back:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: symfony-backend
+    ports:
+      - "8081:80"
+    # depends_on:
+    #   - db  # si tu as besoin d'une base de données
+
+  # FRONTEND
+  vue-front:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: vue-frontend
+    ports:
+      - "3000:80"
+    # depends_on:
+    #   - symfony-back
+
+  # DATABASE (optionnel)
+  # db:
+  #   image: mysql:8
+  #   container_name: db
+  #   environment:
+  #     MYSQL_DATABASE: mydb
+  #     MYSQL_USER: myuser
+  #     MYSQL_PASSWORD: mypass
+  #     MYSQL_ROOT_PASSWORD: root
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - db_data:/var/lib/mysql
+
+# volumes:
+#   db_data:
+#     driver: local
